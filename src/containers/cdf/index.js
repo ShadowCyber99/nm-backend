@@ -1,0 +1,18 @@
+import React, { Suspense } from 'react';
+import ErrorBoundary from '../../components/error-boundary';
+// Imports Components
+import Loading from '../../components/loading/loading';
+import { lazyWithRetry } from '../../components/lazyLoading/index.js';
+// Lazy Components
+const CDFLazy = lazyWithRetry(() => import('./index.jsx'));
+
+const Capability = () => {
+  return (
+    <ErrorBoundary>
+      <Suspense fallback={<Loading />}>
+        <CDFLazy />
+      </Suspense>
+    </ErrorBoundary>
+  );
+};
+export default Capability;

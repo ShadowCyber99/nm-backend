@@ -1,0 +1,18 @@
+export const filterData = {
+  LOAD: 'filterData/LOAD',
+  LOAD_SUCCESS: 'filterData/LOAD_SUCCESS',
+  LOAD_FAIL: 'filterData/LOAD_FAIL',
+  FLUSH: 'filterData/FLUSH',
+  ALL_UNITS: 'filterData/ALL_UNITS',
+  DELETE_UNIT: 'filterData/DELETE_UNIT',
+  PAST_UNITS: 'filterData/PAST_UNITS',
+  SAVE_UNIT: 'filterData/SAVE_UNIT',
+  ALL_UNIT_DRIVERS: 'filterData/ALL_UNIT_DRIVERS',
+  ALL_VEHICLE_CODE: 'filterData/ALL_VEHICLE_CODE',
+  RESET_MESSAGE: 'filterData/RESET_MESSAGE',
+  GET_INVOICE_LOAD: 'filterData/GET_INVOICE_LOAD',
+  GET_INVOICE_SUCCESS: 'filterData/GET_INVOICE_SUCCESS',
+  GET_INVOICE_FAIL: 'filterData/GET_INVOICE_FAIL',
+  INVOICE_FLUSH: 'filterData/INVOICE_FLUSH',
+  ALL_CORPORATE_ACCOUNT: 'filterData/ALL_CORPORATE_ACCOUNT',
+};

@@ -1,0 +1,72 @@
+.sidebarCol::-webkit-scrollbar {
+  display: block;
+  width: 2px;
+}
+.sidebarCol::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebarCol::-webkit-scrollbar-thumb {
+  background-color: #0884c7;
+  border-right: none;
+  border-left: none;
+}
+::-webkit-scrollbar {
+  display: block;
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7e8287;
+  border-right: none;
+  border-left: none;
+}
+.sidebarCol {
+  /* width: 80px;
+  min-width: 80px;
+  background: #f3f3f3;
+  box-shadow: 0px 4.5px 8px 1px rgb(0 0 0 / 35%);
+  text-align: center;
+  z-index: 1;
+  height: 100vh;
+  overflow: auto; */
+  /* / background: #f3f3f3; / */
+}
+.boxShadow {
+}
+
+.logo {
+  margin-top: 23px;
+}
+.dashboardNav {
+  margin-top: 40px;
+}
+.navigationCol a {
+  color: #7e8287;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 11px 0;
+  font-size: 14px;
+}
+.navigationCol a:hover,
+.navigationCol a.active {
+  background: #0884c7;
+  color: #fff;
+  font-weight: 700;
+}
+.navigationCol a:hover svg path,
+.navigationCol a.active svg path {
+  fill: #fff;
+}
+.navigationCol:last-child {
+  border-top: 1px solid #c5c5c7;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,18 @@
+.ListStyle {
+  border: 1px solid #d9dddd;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+.ListItemEven,
+.ListItemOdd {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  /* justify-content: center; */
+}
+
+.ListItemEven {
+  background-color: rgba(250, 250, 250, 1);
+}

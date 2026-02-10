@@ -1,0 +1,1 @@
+export const tablePadding = { padding: 0.8 };

@@ -1,0 +1,11 @@
+export const driverConstants = {
+  LOAD: 'driver/LOAD',
+  LOAD_SUCCESS: 'driver/LOAD_SUCCESS',
+  LOAD_FAIL: 'driver/LOAD_FAIL',
+  FLUSH: 'driver/FLUSH',
+  SAVE_DRIVER: 'driver/SAVE_DRIVER',
+  ALL_DRIVERS: 'driver/ALL_DRIVERS',
+  USER_DRIVER_LIST: 'driver/USER_DRIVER_LIST',
+  CAPABILITY_ROLES: 'driver/CAPABILITY_ROLES',
+  SAVED_CAPABILITY_ROLES: 'driver/SAVED_CAPABILITY_ROLES',
+};
